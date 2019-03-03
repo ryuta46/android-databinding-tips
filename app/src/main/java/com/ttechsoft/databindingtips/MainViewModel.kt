@@ -1,11 +1,15 @@
 package com.ttechsoft.databindingtips
 
+import android.arch.lifecycle.MutableLiveData
+import android.arch.lifecycle.ViewModel
 import android.util.Log
 import android.view.View
 
-class MainViewModel {
+class MainViewModel: ViewModel() {
 
     val text: String = "Test"
+
+    var inputText = MutableLiveData<String>()
 
     fun onClickText(view: View) {
         Log.d(TAG, "Text Clicked!!")

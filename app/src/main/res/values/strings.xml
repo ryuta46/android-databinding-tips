@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DatabindingTips</string>
+    <string name="main_input_headline">Input:</string>
 </resources>
