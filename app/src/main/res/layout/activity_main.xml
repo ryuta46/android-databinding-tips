@@ -3,6 +3,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto">
     <data>
         <import type="android.view.View"/>
+        <import type="com.ttechsoft.databindingtips.R"/>
         <variable name="viewModel" type="com.ttechsoft.databindingtips.MainViewModel"/>
     </data>
 
@@ -65,9 +66,9 @@
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/main_input_too_long"
+                    android:text="@{context.getString(R.string.main_input_too_long, viewModel.maxInput)}"
                     android:layout_margin="8dp"
-                    android:visibility="@{viewModel.inputText.length() > 4 ? View.VISIBLE : View.INVISIBLE}"
+                    android:visibility="@{viewModel.inputText.length() > viewModel.maxInput ? View.VISIBLE : View.INVISIBLE}"
             />
 
             <EditText

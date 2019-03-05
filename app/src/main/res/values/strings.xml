@@ -2,5 +2,5 @@
     <string name="app_name">DatabindingTips</string>
     <string name="main_input_headline">Input:</string>
     <string name="main_input_length_headline">length:</string>
-    <string name="main_input_too_long">Too long.</string>
+    <string name="main_input_too_long">Too long. Max is %d</string>
 </resources>

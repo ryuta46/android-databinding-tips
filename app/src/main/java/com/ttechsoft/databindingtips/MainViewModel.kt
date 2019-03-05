@@ -11,6 +11,8 @@ class MainViewModel: ViewModel() {
 
     val inputText = MutableLiveData<String>()
 
+    val maxInput = 4
+
     fun onClickText(view: View) {
         Log.d(TAG, "Text Clicked!!")
     }
