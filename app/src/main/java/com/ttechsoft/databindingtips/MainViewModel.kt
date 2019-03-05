@@ -13,6 +13,8 @@ class MainViewModel: ViewModel() {
 
     val maxInput = 4
 
+    val imageUrl = "https://ryuta46.com/wp-content/uploads/2017/10/IMG_8999_small-e1508800356141-150x150.jpg"
+
     fun onClickText(view: View) {
         Log.d(TAG, "Text Clicked!!")
     }
