@@ -9,7 +9,7 @@ class MainViewModel: ViewModel() {
 
     val text: String = "Test"
 
-    var inputText = MutableLiveData<String>()
+    val inputText = MutableLiveData<String>()
 
     fun onClickText(view: View) {
         Log.d(TAG, "Text Clicked!!")

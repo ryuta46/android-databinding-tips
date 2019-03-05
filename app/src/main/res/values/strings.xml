@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">DatabindingTips</string>
     <string name="main_input_headline">Input:</string>
+    <string name="main_input_length_headline">length:</string>
 </resources>
